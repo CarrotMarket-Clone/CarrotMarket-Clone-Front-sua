@@ -1,0 +1,302 @@
+#fixed-bar {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.fixed-bar-box-shadow {
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+.header-logo {
+    width: 120px;
+    vertical-align: text-bottom;
+    margin-bottom: 5px;
+}
+
+#fixed-bar-wrap {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 16px 0;
+    position: relative;
+}
+
+#fixed-bar-logo-title {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin:0;
+}
+
+#fixed-bar-search {
+    position: absolute;
+    left: 152px;
+    top: 16px;
+    border-radius: 5px;
+    border: solid 1px #e9ecef;
+    text-decoration: none;
+    padding: 0 1.6rem;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+}
+
+.search-input-wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 42px;
+}
+
+.fixed-search-input {
+    display: block;
+    width: 340px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #212529;
+    background-color: transparent;
+}
+
+input {
+    -webkit-appearance: none;
+    border: solid 1px #CED4DA;
+    padding: 1rem 1.4rem;
+    margin: 1.6rem 0;
+    font-size: 1.6rem;
+    border-radius: 3px;
+}
+
+input {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+input[type="text" i] { /*정확히 뭔지 모르겠음*/
+    padding: 1px 2px;
+}
+
+
+
+input, textarea, select, button {
+    font-family: inherit;
+}
+
+#header-search-button {
+    border: none;
+    margin: 0;
+    background-color: transparent;
+    
+}
+
+.fixed-search-icon {
+    width: 19px;
+    height: 19px;
+    padding: 1rem 0;
+    fill: #868e96;
+    
+}
+
+button, .button {
+    -webkit-appearance: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid #CED4DA;
+    color: #212529;
+    text-align: center;
+    font-weight: 700;
+    background-color: #fff;
+    margin: 1.6rem 0;
+    text-decoration: none;
+    
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    
+}
+
+.fixed-bar-menu {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 16px;
+    font-family: Noto Sans KR;
+    color: #4D5159;
+}
+
+.fixed-download-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fixed-checkbox {
+    display: none; 
+} /*checkbox없앰 안보이게*/
+
+.fixed-label {
+    display: inline-flex;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+}
+
+.menu-icon-svg {
+    transform: rotateX(-180deg);
+}
+
+.menu-icon-svg {
+    margin-left: 9px;
+    margin-top: -3px;
+}
+
+#fixed-bar #fixed-bar-wrap .fixed-bar-menu .fixed-download-wrapper .fixed-checkbox:checked~.fixed-menu-ul {
+    display: block;
+    opacity: 1;
+}
+
+.fixed-menu-ul {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 114px;
+    top: 46px;
+    right: 0;
+    border: 1px solid #868B94;
+    padding: 24px;
+    background: #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#fixed-bar #fixed-bar-wrap .fixed-bar-menu .fixed-download-wrapper .fixed-menu-ul li {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#fixed-bar #fixed-bar-wrap .fixed-bar-menu .fixed-download-wrapper .fixed-menu-ul li .menu-anchor {
+    display: block;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: #4D5159;
+    cursor: pointer;
+}
+
+a {
+    -webkit-tap-highlight-color: rgba(73,80,87,0.05);
+}
+
+#fixed-bar #fixed-bar-wrap .fixed-bar-menu .fixed-download-wrapper .fixed-menu-ul li .menu-anchor img {
+    vertical-align: middle;
+}
+#fixed-bar #fixed-bar-wrap .fixed-bar-menu .fixed-download-wrapper .fixed-menu-ul li .menu-anchor span {
+    margin-left: 8px;
+    vertical-align: text-top;
+}
+
+#fixed-bar #fixed-bar-wrap .fixed-bar-menu .fixed-download-wrapper .fixed-menu-ul li~li {
+    margin-top: 24px;
+}
+
+#fixed-bar #fixed-bar-wrap .fixed-bar-menu .signin-button {
+    margin: 0;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #D1D3D8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 0;
+   
+} /*signinbutton틀*/
+
+#fixed-bar #fixed-bar-wrap .fixed-bar-menu .signup-button span.button-text {
+    color: #4D5159;
+    font-size: 16px;
+    
+}
+
+#fixed-bar #fixed-bar-wrap .fixed-bar-menu .signup-button span {
+    font-style: normal;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+
+
+
+
