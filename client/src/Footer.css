@@ -1,0 +1,133 @@
+ #footer {
+    position: fixed;
+    width: 100%;
+    height: 391px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #495057;
+    bottom: 0;
+}
+
+.footer-list {
+    /*border: 1px solid yellow;*/
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.footer-list-item .link-highlight {
+    color: #fff ;
+    font-weight: 700;
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+/*png로 캡쳐해서 img태그 src로 넣으면 오류는 안뜨는데 이미지 로딩 아예 안되는 이슈*/
+.footer-logo { 
+    width: 130px; 
+    height: 37px; 
+    background-image: url(https://d1unjqcospf8gs.cloudfront.net/assets/home/base/footer/logo-a4f4848ffd1d5fcb13d1d3ecf82ffbc77c31ebe226f67097386497a34638c059.svg);
+    background-size: 130px 37px;
+}
+
+.link-highlight:hover {
+    text-decoration: underline;
+}
+
+.footer-container {
+    /*border: 1px solid red;*/
+    margin: 0 430px;
+}
+
+.footer-top {
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-list-item a {
+    color: #ADB5BD;
+    text-decoration: none;
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+} /*.footer-list .footer-list-item a로 주면 해당 css가 linkhighlight까지 먹어버림*/
+
+.copyright-list {
+    list-style: none;
+}
+
+.copyright-list-item {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 0 0.8rem 0 0;
+}
+
+.copyright-list-item a{
+    text-decoration: none;
+    color: #868e96;
+}
+
+.copyright-list-item a:hover{
+    text-decoration: underline;
+}
+
+address {
+    color: #868e96;
+    font-style: normal;
+}
+
+#copyright {
+    color: #ADB5BD;
+    margin-top: 3.2rem;
+} /*footer .footer-container #copyright로 들어가면 안먹음*/
+
+.copyright-list-light .copyright-list-item {
+    color: #868e96;
+    margin-top: 1.6rem;
+}
+
+#social {
+    margin: 3.2rem auto;
+    
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+}
+
+.social-list-item {
+    margin-right: 2.4rem;
+}
+
+.global-links {
+    margin-left: 2.4rem;
+}
+
+.copyright-text {
+    color: #868e96;
+    font-size: 1.4rem;
+}
+
+select {
+    /*-o-appearance: none;
+    -webkit-appearance: none; =>의미없음*/
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #495057;
+    color: #ADB5BD;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 6px;
+    border: none;
+    vertical-align: top;
+    text-decoration: underline;
+    text-underline-position: under;
+    
+}

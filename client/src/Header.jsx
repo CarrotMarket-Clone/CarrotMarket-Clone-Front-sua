@@ -37,7 +37,7 @@ return(
                 </div>
                 <a href='' target='_blank'>
                     <button className='signin-button'>
-                        <span className='button-text'>회원가입</span>
+                        <span className='button-text'>로그인</span>
                     </button>
                 </a>
             </section>
