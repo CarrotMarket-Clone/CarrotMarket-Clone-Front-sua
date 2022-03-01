@@ -34,9 +34,9 @@ function Home(){
                     <div className='title'>이웃과 함께 하는<br/>동네생활</div>
                     <div className='description'>우리 동네의 다양한 이야기를 이웃과 함께 나누어요.</div>
                     <ul className='description-list'>
-                        <li className='description-item'><img src={require('./img/icon-story-1.svg').default}></img><br/>우리동네질문<div className='description-notbold'>궁금한 게 있을 땐 이웃에게 물어보세요.</div></li>
-                        <li className='description-item'><img src={require('./img/icon-story-2.svg').default}></img><br/>동네분실센터<div className='description-notbold'>무언가를 잃어버렸을 때, 함께 찾을 수 있어요.</div></li>
-                        <li className='description-item'><img src={require('./img/icon-story-3.svg').default}></img><br/>동네모임<div className='description-notbold'>관심사가 비슷한 이웃과 온오프라인으로 만나요.</div></li>
+                        <li className='description-item'><img src={require('../img/icon-story-1.svg').default}></img><br/>우리동네질문<div className='description-notbold'>궁금한 게 있을 땐 이웃에게 물어보세요.</div></li>
+                        <li className='description-item'><img src={require('../img/icon-story-2.svg').default}></img><br/>동네분실센터<div className='description-notbold'>무언가를 잃어버렸을 때, 함께 찾을 수 있어요.</div></li>
+                        <li className='description-item'><img src={require('../img/icon-story-3.svg').default}></img><br/>동네모임<div className='description-notbold'>관심사가 비슷한 이웃과 온오프라인으로 만나요.</div></li>
                     </ul>
                 </div>
                     <div className='home-main-image home-main-image-02'></div>

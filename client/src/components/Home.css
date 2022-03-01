@@ -10,7 +10,7 @@
 .home-main-image-top { /*get method가 실행 안되어서 img 로드가 안됨-엑세스 거부/당근측에서 웹서버접근 금지시킨듯*/
     width: 804px;
     height: 685px; 
-    background-image: url(./img/image-top.png);
+    background-image: url(../img/image-top.png);
     background-size: 804px 685px;
     position: relative;
     bottom: -75px;
@@ -25,7 +25,7 @@
 .home-main-section .home-main-image-01 {
     width: 532px;
     height: 684px;
-    background-image: url(./img/image-1.png); /*no-repeat추가시 이미지 로드 안됨*/
+    background-image: url(../img/image-1.png); /*no-repeat추가시 이미지 로드 안됨*/
     background-size: 532px 684px; /*repeat적용되어있는데 backgroundsize,width로 잘려서 1개씩만 보이고있음*/
     display: inline-block;
 }
@@ -33,7 +33,7 @@
 .home-main-image-02 {
     width: 546px;
     height: 740px;
-    background-image: url(./img/image-2.png);
+    background-image: url(../img/image-2.png);
     background-size: 546px 740px;
     display: inline-block;
 }
@@ -41,7 +41,7 @@
 .home-main-image-03 {
     width: 526px;
     height: 735px;
-    background-image: url(./img/image-3.png);
+    background-image: url(../img/image-3.png);
     background-size: 526px 735px;
     display: inline-block;
 }
