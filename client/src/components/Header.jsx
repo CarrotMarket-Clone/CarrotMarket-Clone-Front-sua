@@ -7,14 +7,14 @@ return(
 <div id='fixed-bar' className='fixed-bar-box-shadow'>
     <div id='fixed-bar-wrap'>
         <h1 id='fixed-bar-logo-title'>
-            <a href=''><img className='header-logo' src={require('./img/header_logo.svg').default} alt='headerlogo' /> {/*로고액박->alt옵션필수>엑박>require추가>엑박>default>해결:원리찾아보기*/}
+            <a href='#!'><img className='header-logo' src={require('../img/header_logo.svg').default} alt='headerlogo' /> {/*로고액박->alt옵션필수>엑박>require추가>엑박>default>해결:원리찾아보기*/}
             </a>
             </h1>
             <section id='fixed-bar-search'>
                 <div className='search-input-wrap'>
                     <input type='text' name='header-search-input' id='header-search-input' className='fixed-search-input' placeholder='동네 이름, 물품명 등을 검색해보세요!'></input> {/*id,class같이 준 이유?*/}
                     <button id='header-seearch-button'>
-                        <img className='fixed-search-icon' alt='Search' src={require('./img/search_icon.svg').default} />
+                        <img className='fixed-search-icon' alt='Search' src={require('../img/search_icon.svg').default} />
                     </button>
                 </div>
             </section>
@@ -37,7 +37,7 @@ return(
                 </div>
                 <a href='' target='_blank'>
                     <button className='signin-button'>
-                        <span className='button-text'>회원가입</span>
+                        <span className='button-text'>로그인</span>
                     </button>
                 </a>
             </section>
