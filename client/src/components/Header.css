@@ -203,12 +203,21 @@ button {
 }
 
 .menu-icon-svg {
+    margin-left: 9px;
+    margin-top: -3px;
+    /*transform: rotate(-180deg);*/
+}
+
+.fixed-checkbox:checked+.fixed-label .menu-icon-svg {
     transform: rotateX(-180deg);
 }
 
-.menu-icon-svg {
-    margin-left: 9px;
-    margin-top: -3px;
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
 }
 
 #fixed-bar #fixed-bar-wrap .fixed-bar-menu .fixed-download-wrapper .fixed-checkbox:checked~.fixed-menu-ul {
@@ -284,10 +293,10 @@ a {
    
 } /*signinbutton틀*/
 
-#fixed-bar #fixed-bar-wrap .fixed-bar-menu .signup-button span.button-text {
+.button-text {
     color: #4D5159;
     font-size: 16px;
-    
+    font-weight: bold;
 }
 
 #fixed-bar #fixed-bar-wrap .fixed-bar-menu .signup-button span {

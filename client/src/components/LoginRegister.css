@@ -1,0 +1,58 @@
+.login-main .login-title {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35.16px;
+    outline-color: #222222;
+
+}
+
+.login-main .login-description {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000000;
+}
+
+.login-input-text {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000000;
+}
+
+.login-btn {
+    width: 412px;
+    height: 64.01px;
+    background-color: #ff7f00;
+    border-radius: 10px;
+}
+
+.login-bottom-link-wrap {
+    position: relative;
+    width: 408px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-bottom-link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: center;
+    color: #929292;
+}
+
+.login-bottom-link a {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: center;
+    text-decoration: underline;
+    color: #929292;
+}
