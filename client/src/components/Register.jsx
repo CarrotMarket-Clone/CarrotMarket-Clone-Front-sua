@@ -10,23 +10,23 @@ function Register() {
         </div>
         <div className='login-input-wrap'>
             <div className='longin-input'>
-                <div className='login-input-text'>아이디(이메일)</div>
+                <div className='login-input-text'>아이디(이메일)<p>*</p></div>
                 <input /*type=''*/ placeholder='예) daangn@gmail.com'></input>
             </div>
             <div className='longin-input'>
-                <div className='login-input-text'>비밀번호</div>
+                <div className='login-input-text'>비밀번호<p>*</p></div>
                 <input /*type=''*/ placeholder='비밀번호 입력'></input>
             </div>
             <div className='longin-input'>
-                <div className='login-input-text'>비밀번호 확인</div>
+                <div className='login-input-text'>비밀번호 확인<p>*</p></div>
                 <input /*type=''*/ placeholder='비밀번호 확인'></input>
             </div>
             <div className='longin-input'>
-                <div className='login-input-text'>이름</div>
+                <div className='login-input-text'>이름<p>*</p></div>
                 <input /*type=''*/ placeholder='예) 홍길동'></input>
             </div>
             <div className='longin-input'>
-                <div className='login-input-text'>전화번호</div>
+                <div className='login-input-text'>전화번호<p>*</p></div>
                 <input /*type=''*/ placeholder='예) 01012345678'></input>
             </div>
             <div className='checkbox-wrap'>

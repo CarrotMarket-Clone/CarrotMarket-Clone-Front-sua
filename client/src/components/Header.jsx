@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { Link } from "react-router-dom";
 
 function Header() {
 return(
@@ -7,8 +8,8 @@ return(
 <div id='fixed-bar' className='fixed-bar-box-shadow'>
     <div id='fixed-bar-wrap'>
         <h1 id='fixed-bar-logo-title'>
-            <a href='#!'><img className='header-logo' src={require('../img/header_logo.svg').default} alt='headerlogo' />
-            </a>
+            <Link to='/'><img className='header-logo' src={require('../img/header_logo.svg').default} alt='headerlogo' />
+            </Link>
             </h1>
             <section id='fixed-bar-search'>
                 <div className='search-input-wrap'>
@@ -35,11 +36,11 @@ return(
                             </img><span>Google Play</span></a></li>
                     </ul>
                 </div>
-                <a href='#!' target='_blank'>
+                <Link to='/login'>
                     <button className='signin-button'>
                         <span className='button-text'>로그인</span>
                     </button>
-                </a>
+                </Link>
             </section>
         
     </div>
