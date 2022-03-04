@@ -1,0 +1,99 @@
+* {
+    font-family: 'Roboto';
+    white-space: nowrap;
+}
+
+.login-main .login-title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35.16px;
+    outline-color: #222222;
+
+}
+
+.login-main .login-description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000000;
+}
+
+.login-input-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000000;
+}
+
+.login-btn {
+    width: 412px;
+    height: 64.01px;
+    background-color: #ff7f00;
+    border-radius: 10px;
+}
+
+.login-bottom-link-wrap {
+    position: relative;
+    width: 408px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-bottom-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: center;
+    color: #929292;
+}
+
+.login-bottom-link a {
+    font-weight: 700;
+    /*font-size: 14px;
+    line-height: 16.41px;
+    text-align: center;*/
+    text-decoration: underline;
+    /*color: #929292;*/
+}
+
+.login-input-text p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF785A;  
+}
+
+.register-checkbox {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000; 
+}
+
+.register-checkbox a {
+    /*font-style: normal;*/
+    font-weight: bold;
+    /*font-size: 14px;
+    line-height: 16px;*/
+    text-decoration-line: underline;
+    /*color: #000000;*/
+}
+
+.login-nec {
+     /*반복된 font style들 inherit으로 처리하기*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF785A;
+}
+
+.login-input input {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
