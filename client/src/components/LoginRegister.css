@@ -1,4 +1,12 @@
-* {
+#login-area {
+    height: 1000px;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-left: 700px;
+}
+
+#login-area * {
+    position: relative;
     font-family: 'Roboto';
     white-space: nowrap;
 }
@@ -16,6 +24,7 @@
     font-size: 14px;
     line-height: 16.41px;
     color: #000000;
+    margin-bottom: 54px;
 }
 
 .login-input-text {
@@ -23,6 +32,7 @@
     font-size: 14px;
     line-height: 16.41px;
     color: #000000;
+    margin-bottom: 10px;
 }
 
 .login-btn {
@@ -30,14 +40,23 @@
     height: 64.01px;
     background-color: #ff7f00;
     border-radius: 10px;
+    margin-top: 16.28px;
+    color:  #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    Line-height: 21.09px;
+
 }
 
 .login-bottom-link-wrap {
     position: relative;
-    width: 408px;
+    width: 100px;
     height: 28px;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
+    margin: 0;
+    margin-top: 21.99px;
+
 }
 
 .login-bottom-link {
@@ -46,6 +65,10 @@
     line-height: 16.41px;
     text-align: center;
     color: #929292;
+    list-style: none;
+    width: 65px;
+    margin: 0;
+    
 }
 
 .login-bottom-link a {
@@ -54,7 +77,9 @@
     line-height: 16.41px;
     text-align: center;*/
     text-decoration: underline;
+    color: #929292;
     /*color: #929292;*/
+    margin: 0;
 }
 
 .login-input-text p {
@@ -91,9 +116,17 @@
     color: #FF785A;
 }
 
-.login-input input {
+#login-area div.login-input-wrap input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     background: #FFFFFF;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
     border-radius: 6px;
+    width: 408px;
+    height: 45px;
+    margin-bottom: 25.72px;
+    
 }
+

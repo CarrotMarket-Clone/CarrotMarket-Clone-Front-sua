@@ -25,7 +25,7 @@ return(
                     <label for='fixed-menu-checkbox' className='fixed-label'>
                         다운로드
                         <svg className='menu-icon-svg' width='12' height='7' viewBox='0 0 12 7' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                            <path d='M1 1L6 6L11 1' stroke='#4D5159' strokeLinecap='round' strokeLinejoin='round'></path></svg> {/*??*/}
+                            <path d='M1 1L6 6L11 1' stroke='#4D5159' strokeLinecap='round' strokeLinejoin='round'></path></svg>
                     </label>
                     <ul className='fixed-menu-ul'>
                         <li><a target='_blank' className='menu-anchor' id='header-download-button-ios' href='https://apps.apple.com/kr/app/pangyojangteo/id1018769995?l=ko&ls=1'>

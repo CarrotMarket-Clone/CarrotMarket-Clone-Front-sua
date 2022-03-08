@@ -39,7 +39,8 @@ function Home(){
                         <li className='description-item'><img src={require('../img/icon-story-3.svg').default}></img><br/>동네모임<div className='description-notbold'>관심사가 비슷한 이웃과 온오프라인으로 만나요.</div></li>
                     </ul>
                 </div>
-                    <div className='home-main-image home-main-image-02'></div>
+                    <div className='home-main-image home-main-image-02'></div>{/*loginregister.css의 *selecter의 whitespace:none이 자꾸 적용되어 이미지 잘림현상 발생
+                     #login-area * 로 수정하니 해결됨=> *selector는 전역변수인듯..?*/} 
                 </div>
             </section>
 
