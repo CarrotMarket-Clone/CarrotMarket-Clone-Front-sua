@@ -2,3 +2,9 @@
     background-color: #f8b751; /*그냥 글자색만 orange로 줘도 이쁘다*/
 }
 
+/*@media (max-width: 1004px) {
+    Footer {
+        display: none;
+    }
+    
+}*/
