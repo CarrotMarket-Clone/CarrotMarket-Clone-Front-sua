@@ -68,6 +68,9 @@
     list-style: none;
     width: 65px;
     margin: 0;
+    margin-left: 50px;
+    margin-right: 60px;
+    display: inline-block;
     
 }
 

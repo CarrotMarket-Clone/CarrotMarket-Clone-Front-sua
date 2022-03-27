@@ -1,5 +1,6 @@
 import React from 'react';
 import './LoginRegister.css';
+import { Link } from "react-router-dom";
 
 function Login() {
     return(
@@ -22,8 +23,8 @@ function Login() {
         </div>
         <div className='login-bottom'>
             <ul className='login-bottom-link-wrap'>
-                <li className='login-bottom-link'>메인 화면 <a href='#!'>돌아가기</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</li>
-                <li className='login-bottom-link'>처음오셨나요? <a href='#!'>회원가입</a> </li>
+                <li className='login-bottom-link'>메인 화면  <Link to='/'>돌아가기</Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+                <li className='login-bottom-link'>처음오셨나요? <Link to='/register'>회원가입</Link> </li>
             </ul>
         </div>
 
