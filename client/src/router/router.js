@@ -1,4 +1,4 @@
-import { render } from "react-dom";
+/*import { render } from "react-dom";
 import {
   BrowserRouter,
   Routes,
@@ -22,4 +22,4 @@ render(
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
-);
+); App.js로 router 처리함*/
